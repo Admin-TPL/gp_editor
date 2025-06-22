@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>GroupPolicyEditor</id>
+    <version>1.0.0</version>
+    <authors>Your Name</authors>
+    <description>A .NET library for managing Windows Group Policy settings, designed for Python interoperability</description>
+    <tags>grouppolicy windows administration python interop</tags>
+    <repository type="git" />
+    <dependencies>
+      <group targetFramework="net8.0">
+        <dependency id="Microsoft.Win32.Registry" version="5.0.0" exclude="Build,Analyzers" />
+        <dependency id="System.DirectoryServices" version="8.0.0" exclude="Build,Analyzers" />
+        <dependency id="System.Management" version="8.0.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="D:\Programming\Projects\gp_editor\src\GroupPolicyEditor\bin\Release\net8.0\win-x64\GroupPolicyEditor.dll" target="lib\net8.0\GroupPolicyEditor.dll" />
+  </files>
+</package>
